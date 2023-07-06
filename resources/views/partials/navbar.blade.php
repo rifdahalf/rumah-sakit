@@ -4,8 +4,8 @@
    <div id="topbar" class="d-flex align-items-center fixed-top">
     <div class="container d-flex justify-content-between">
       <div class="contact-info d-flex align-items-center">
-        <i class="bi bi-envelope"></i> <a href="mailto:contact@example.com">contact@example.com</a>
-        <i class="bi bi-phone"></i> +1 5589 55488 55
+        <i class="bi bi-envelope"></i> <a href="mailto:contact@example.com">RS_IbudanAnak@gmail.com</a>
+        <i class="bi bi-phone"></i> (021) 5220 191
       </div>
     </div>
   </div>
@@ -13,7 +13,7 @@
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
 
-      <h1 class="logo me-auto"><a href="/">Sistem Antrian</a></h1>
+      <h1 class="logo me-auto"><a href="/">Sistem Antrian Rumah Sakit Ibu dan Anak</a></h1>
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
