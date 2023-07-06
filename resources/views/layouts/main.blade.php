@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Sistem Antrian Online Puskesmas</title>
+  <title>Sistem Antrian Online Rumah Sakit Ibu dan Anak</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 

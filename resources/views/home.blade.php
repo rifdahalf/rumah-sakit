@@ -8,7 +8,7 @@
   <section id="hero" class="d-flex align-items-center">
     <div class="container">
       <h1>Selamat Datang</h1>
-      <h2>Ini Adalah Website Resmi Puskesmas Sehat</h2>
+      <h2>Website Resmi Rumah Sakit Ibu dan Anak</h2>
       <a href="/antrian" class="btn-get-started scrollto">Ambil Antrian</a>
     </div>
   </section><!-- End Hero -->
@@ -21,8 +21,8 @@
           <div class="col-lg-4 d-flex align-items-stretch">
             <div class="content">
               <h3>Sistem Antrian Online</h3>
-              <p>
-                Ini adalah Sistem Antrian Online Puskesmas dimana setiap pengunjung dapat mengambil antrian Sesuai Poliklinik terlebih dahulu dari rumah
+              <p> 
+                Setiap pengunjung dapat mendaftarkan nomor antrian sesuai Poli yang dituju secara online
               </p>
               <div class="text-center">
                 <a href="/antrian" class="more-btn">Ambil Antrian <i class="bx bx-chevron-right"></i></a>
@@ -72,7 +72,7 @@
           <div class="col-lg-3 col-md-6">
             <div class="count-box">
               <i class="fas fa-user-md"></i>
-              <span data-purecounter-start="0" data-purecounter-end="85" data-purecounter-duration="1" class="purecounter"></span>
+              <span data-purecounter-start="0" data-purecounter-end="9" data-purecounter-duration="1" class="purecounter"></span>
               <p>Doctors</p>
             </div>
           </div>
@@ -80,7 +80,7 @@
           <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
             <div class="count-box">
               <i class="far fa-hospital"></i>
-              <span data-purecounter-start="0" data-purecounter-end="18" data-purecounter-duration="1" class="purecounter"></span>
+              <span data-purecounter-start="0" data-purecounter-end="3" data-purecounter-duration="1" class="purecounter"></span>
               <p>Departments</p>
             </div>
           </div>
@@ -128,19 +128,19 @@
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
                 <h4>Location:</h4>
-                <p>A108 Adam Street, New York, NY 535022</p>
+                <p>Jl. Ketintang, Surabaya, Jawa Timur</p>
               </div>
 
               <div class="email">
                 <i class="bi bi-envelope"></i>
                 <h4>Email:</h4>
-                <p>info@example.com</p>
+                <p>RS_IbudanAnak@gmail.com</p>
               </div>
 
               <div class="phone">
                 <i class="bi bi-phone"></i>
                 <h4>Call:</h4>
-                <p>+1 5589 55488 55s</p>
+                <p>(021) 5220 191</p>
               </div>
 
             </div>
