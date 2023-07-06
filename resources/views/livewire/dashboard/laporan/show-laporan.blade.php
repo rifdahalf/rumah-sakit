@@ -29,7 +29,7 @@
                             <select wire:model="poli" class="form-control">
                                 <option value="">Semua Poli</option>
                                 <option value="anak">Poli Anak</option>
-                                <option value="kandungan">poli Kandungan</option>
+                                <option value="kandungan">Poli Kandungan</option>
                                 <option value="neonatologi">Poli Neonatologi</option>
                             </select>                            
                         </div>
