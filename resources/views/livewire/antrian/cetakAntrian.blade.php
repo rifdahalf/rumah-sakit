@@ -12,10 +12,11 @@
 <div class="container">
   <div class="card" style="border: 1px solid black">
     <div class="card-body">
-      <h5 class="card-title" style="text-align: center">PUSKESMAS SEHAT</h5>
+      <h5 class="card-title" style="text-align: center">Rumah Sakit Ibu dan Anak</h5>
       <h6 class="card-subtitle mb-2 text-muted"style="text-align: center">Nomor Antrian</h6>
       <hr>
       @foreach ($detailAntrian as $item)
+        <h1 style="text-align: center"; >{{ $item-> poli }}</h1>
         <h1 style="text-align: center"; >{{ $item->no_antrian }}</h1>
       @endforeach
       <hr>
