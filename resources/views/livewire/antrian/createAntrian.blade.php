@@ -11,12 +11,12 @@
             <div class="modal-body">
               <div class="mb-3">
                 <label>Tanggal Antrian</label>
-                <input type="text" wire:model="tanggal_antrian" class="form-control" value="{{ $tanggal_antrian }}"readonly>
+                <input type="text" wire:model="tanggal_antrian" class="form-control" value="{{ $tanggal_antrian }}" placeholder="Terisi otomatis oleh sistem" readonly>
                 @error('tanggal_antrian') <span class="text-danger">{{ $message }}</span> @enderror
             </div>
               <div class="mb-3">
                 <label>Nomor Antrian</label>
-                <input type="string" wire:model="no_antrian" class="form-control" value="{{ $no_antrian }}" readonly>
+                <input type="string" wire:model="no_antrian" class="form-control" value="{{ $no_antrian }}" placeholder="Terisi otomatis oleh sistem" readonly>
                 @error('no_antrian') <span class="text-danger">{{ $message }}</span> @enderror
             </div>
             <div class="mb-3">
