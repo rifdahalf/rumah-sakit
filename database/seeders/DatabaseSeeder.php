@@ -33,7 +33,8 @@ class DatabaseSeeder extends Seeder
             'jenis_kelamin' => 'laki-laki',
             'no_hp'      => '091229248179',
             'no_ktp'     => '3303928049283',
-            'poli'       => 1
+            'poli'       => 1,
+            'dokter'       => 1
         ]);
 
         User::create([

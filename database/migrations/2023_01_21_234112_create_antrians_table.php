@@ -25,6 +25,7 @@ return new class extends Migration
             $table->string('no_hp');
             $table->string('no_ktp');
             $table->enum('poli', ['anak', 'kandungan', 'neonatologi']);
+            $table->enum('dokter', ['Dr. A', 'Dr. B', 'Dr. C', 'Dr. X', 'Dr. Y', 'Dr. Z', 'Dr. S', 'Dr. T', 'Dr. U']);
             $table->boolean('is_call')->default(false);
             $table->date('tanggal_antrian')->default(Carbon::now());
             $table->timestamps();
