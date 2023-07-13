@@ -11,7 +11,7 @@ use Livewire\WithPagination;
 
 class ShowAntrian extends Component
 {
-    public $antrian_id, $no_antrian, $nama, $alamat, $jenis_kelamin, $no_hp, $no_ktp, $poli, $tanggal_antrian, $user_id, $data;
+    public $antrian_id, $no_antrian, $nama, $alamat, $jenis_kelamin, $no_hp, $no_ktp, $poli, $dokter, $tanggal_antrian, $user_id, $data;
 
     use WithPagination;
     protected $paginationTheme = 'bootstrap';
@@ -24,6 +24,7 @@ class ShowAntrian extends Component
         'no_hp'         => 'required|numeric',
         'no_ktp'        => 'required|numeric',
         'poli'          => 'required',
+        'dokter'          => 'required',
         'tanggal_antrian' => 'required'
     ];
 
@@ -83,6 +84,7 @@ class ShowAntrian extends Component
         $this->no_hp = '';
         $this->no_ktp = '';
         $this->poli = '';
+        $this->dokter = '';
     }
 
     public function close_modal()
@@ -102,6 +104,7 @@ class ShowAntrian extends Component
             $this->no_hp            = $antrian->no_hp;
             $this->no_ktp           = $antrian->no_ktp;
             $this->poli             = $antrian->poli;
+            $this->dokter           = $antrian->dokter;
         } else {
             return redirect()->to('/');
         }
@@ -137,7 +140,8 @@ class ShowAntrian extends Component
             'jenis_kelamin' => 'required',
             'no_hp'         => 'required',
             'no_ktp'        => 'required',
-            'poli'          => 'required'
+            'poli'          => 'required',
+            'dokter'        => 'required'
         ]);
 
         Antrian::where('id', $this->antrian_id)->update([
@@ -147,7 +151,8 @@ class ShowAntrian extends Component
             'jenis_kelamin' => $validatedData['jenis_kelamin'],
             'no_hp'         => $validatedData['no_hp'],
             'no_ktp'        => $validatedData['no_ktp'],
-            'poli'          => $validatedData['poli']
+            'poli'          => $validatedData['poli'],
+            'dokter'        => $validatedData['dokter']
         ]);
 
         session()->flash('success', 'Berhasil Mengedit Data Antrian Anda');
@@ -180,6 +185,7 @@ class ShowAntrian extends Component
             $this->no_hp            = $antrian->no_hp;
             $this->no_ktp           = $antrian->no_ktp;
             $this->poli             = $antrian->poli;
+            $this->dokter           = $antrian->dokter;
         } else {
             return redirect()->to('/');
         }

@@ -47,36 +47,31 @@
                     <div class="col">
                         <div class="table-responsive">
                             <table class="table table-bordered" id="table_id">
-                                <thead>
-                                  <tr style="text-align: center">
-                                    <th scope="col">No Antrian</th>
-                                    <th scope="col">Nama</th>
-                                    <th scope="col">Alamat</th>
-                                    <th scope="col">Jenis Kelamin</th>
-                                    <th scope="col">Nomor HP</th>
-                                    <th scope="col">Nomor KTP</th>
-                                    <th scope="col">Poli</th>
-                                    <th scope="col">Tgl. Antrian</th>
-                                  </tr>
-                                </thead>
+                            <thead>
+                              <tr style="text-align: center">
+                                <th scope="col">No</th>
+                                <th scope="col">No Antrian</th>
+                                <th scope="col">Nama</th>
+                                <th scope="col">Poli</th>
+                                <th scope="col">Dokter</th>
+                                <th scope="col">Tgl. Antrian</th>
+                              </tr>
+                            </thead>
                                 <tbody>
-                                    @foreach ($laporan as $list)
-                                        <tr style="text-align: center">
-                                            <td>{{ $list->no_antrian }}</td>
-                                            <td>{{ $list->nama }}</td>
-                                            <td>{{ $list->alamat }}</td>
-                                            <td>{{ $list->jenis_kelamin }}</td>
-                                            <td>{{ $list->no_hp }}</td>
-                                            <td>{{ $list->no_ktp }}</td>
-                                            <td>{{ $list->poli }}</td>
-                                            <td>{{ $list->tanggal_antrian }}</td>
-                                        </tr>
-                                    @endforeach
-                                </tbody>
-                            </table>
-                        </div>
-                        {{ $laporan->links() }}
+                                @foreach ($laporan as $item)
+                                    <tr style="text-align: center">
+                                        <td>{{ $loop->iteration }}</td>
+                                        <td>{{ $item->no_antrian }}</td>
+                                        <td>{{ $item->nama }}</td>
+                                        <td>{{ $item->poli }}</td>
+                                        <td>{{ $item->dokter }}</td>
+                                        <td>{{ $item->tanggal_antrian }}</td>
+                                    </tr>
+                                @endforeach
+                            </tbody>
+                        </table>
                     </div>
+                    {{ $laporan->links() }}
                 </div>
             </div>
         </div>

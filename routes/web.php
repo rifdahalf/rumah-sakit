@@ -7,6 +7,7 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\DashboardLaporanController;
 use App\Http\Controllers\FrontAntrianController;
+use App\Http\Livewire\Dashboard\Laporan;
 
 /*
 |--------------------------------------------------------------------------

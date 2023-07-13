@@ -35,4 +35,5 @@ class DashboardLaporanController extends Controller
         $pdf = PDF::loadView('livewire.dashboard.laporan.cetakLaporan', compact('laporan'));
         return $pdf->stream('laporan.pdf');
     }
+
 }

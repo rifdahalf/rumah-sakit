@@ -21,6 +21,7 @@
                             <th scope="col">Nomor HP</th>
                             <th scope="col">Nomor KTP</th>
                             <th scope="col">Poli</th>
+                            <th scope="col">Dokter</th>
                             <th scope="col">Tgl Antrian</th>
                             <th scope="col">Opsi</th>
                           </tr>
@@ -35,6 +36,7 @@
                                     <td>{{ $item->no_hp }}</td>
                                     <td>{{ $item->no_ktp }}</td>
                                     <td>{{ $item->poli }}</td>
+                                    <td>{{ $item->dokter }}</td>
                                     <td>{{ $item->tanggal_antrian }}</td>
                                     <td>
                                         <a class="btn btn-success" a href="{{ route('cetakAntrian') }}" target="_blank"><i class="bi bi-printer"></i></a>
@@ -73,7 +75,7 @@
                 <div class="col-md-3">
                     <div class="mb-3">
                         <select class="form-select" wire:model="poli">
-                            <option value="">Sortir Berdasarkan Poli</option>
+                            <option value="">Lihat Daftar Antrian berdasarkan Poli</option>
                             <option value="anak">Poli Anak</option>
                             <option value="kandungan">Poli Kandungan</option>
                             <option value="neonatologi">Poli Neonatologi</option>
@@ -91,11 +93,8 @@
                                 <th scope="col">No</th>
                                 <th scope="col">No Antrian</th>
                                 <th scope="col">Nama</th>
-                                <th scope="col">Alamat</th>
-                                <th scope="col">Jenis Kelamin</th>
-                                <th scope="col">Nomor HP</th>
-                                <th scope="col">Nomor KTP</th>
                                 <th scope="col">Poli</th>
+                                <th scope="col">Dokter</th>
                                 <th scope="col">Tgl. Antrian</th>
                               </tr>
                             </thead>
@@ -105,13 +104,8 @@
                                         <td>{{ $loop->iteration }}</td>
                                         <td>{{ $item->no_antrian }}</td>
                                         <td>{{ $item->nama }}</td>
-                                        <td>{{ $item->alamat }}</td>
-                                        <td>{{ $item->jenis_kelamin }}</td>
-                                        <td>{{ $item->no_hp }}</td>
-                                        <td>
-                                            {{ substr_replace($item->no_ktp, '******', 4, 6) }}
-                                        </td>
                                         <td>{{ $item->poli }}</td>
+                                        <td>{{ $item->dokter }}</td>
                                         <td>{{ $item->tanggal_antrian }}</td>
                                     </tr>
                                 @endforeach

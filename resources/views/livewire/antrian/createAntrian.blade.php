@@ -58,6 +58,25 @@
                   </select>
                 @error('poli') <span class="text-danger">{{ $message }}</span> @enderror
             </div>
+            <div class="mb-3">
+                <label>Ambil Antrian Untuk Dokter</label>
+                <select class="form-select" wire:model="dokter" aria-label="Default select example">
+                <option selected>Pilih Dokter</option>
+                    @if ($poli == 'anak')
+                        <option value="Dr. Martha">Dr. A</option>
+                        <option value="Dr. Lubis">Dr. B</option>
+                        <option value="Dr. Fanani">Dr. C</option>
+                    @elseif ($poli == 'kandungan')
+                        <option value="Dr. Aurellia">Dr. X</option>
+                        <option value="Dr. Wiratna">Dr. Y</option>
+                        <option value="Dr. Alifia">Dr. Z</option>
+                    @elseif ($poli == 'neonatologi')
+                        <option value="Dr. Sion">Dr. S</option>
+                        <option value="Dr. Rifdah">Dr. T</option>
+                        <option value="Dr. Samuel">Dr. U</option>
+                    @endif
+                  </select>
+            </div>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" wire:click="close_modal" >Keluar</button>
