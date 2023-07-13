@@ -32,7 +32,7 @@
             <div class="mb-3">
                 <label>Jenis Kelamin</label>
                 <select class="form-select" wire:model="jenis_kelamin" aria-label="Default select example">
-                    <option selected>pilih Jenis Kelamin</option>
+                    <option selected>pilih jenis kelamin</option>
                     <option value="laki-laki">Laki-laki</option>
                     <option value="perempuan">Perempuan</option>
                   </select>
@@ -63,17 +63,17 @@
                 <select class="form-select" wire:model="dokter" aria-label="Default select example">
                 <option selected>Pilih Dokter</option>
                     @if ($poli == 'anak')
-                        <option value="Dr. Martha">Dr. A</option>
-                        <option value="Dr. Lubis">Dr. B</option>
-                        <option value="Dr. Fanani">Dr. C</option>
+                        <option value="Dr. Martha">Dr. Martha</option>
+                        <option value="Dr. Lubis">Dr. Lubis</option>
+                        <option value="Dr. Fanani">Dr. Fanani</option>
                     @elseif ($poli == 'kandungan')
-                        <option value="Dr. Aurellia">Dr. X</option>
-                        <option value="Dr. Wiratna">Dr. Y</option>
-                        <option value="Dr. Alifia">Dr. Z</option>
+                        <option value="Dr. Aurellia">Dr. Aurellia</option>
+                        <option value="Dr. Wiratna">Dr. Wiratna</option>
+                        <option value="Dr. Alifia">Dr. Alifia</option>
                     @elseif ($poli == 'neonatologi')
-                        <option value="Dr. Sion">Dr. S</option>
-                        <option value="Dr. Rifdah">Dr. T</option>
-                        <option value="Dr. Samuel">Dr. U</option>
+                        <option value="Dr. Sion">Dr. Sion</option>
+                        <option value="Dr. Rifdah">Dr. Rifdah</option>
+                        <option value="Dr. Samuel">Dr. Samuel</option>
                     @endif
                   </select>
             </div>
