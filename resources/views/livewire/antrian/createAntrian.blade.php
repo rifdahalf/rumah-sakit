@@ -63,17 +63,17 @@
                 <select class="form-select" wire:model="dokter" aria-label="Default select example">
                 <option selected>Pilih Dokter</option>
                     @if ($poli == 'anak')
-                        <option value="Dr. A">Dr. A</option>
-                        <option value="Dr. B">Dr. B</option>
-                        <option value="Dr. C">Dr. C</option>
+                        <option value="Dr. Martha">Dr. A</option>
+                        <option value="Dr. Lubis">Dr. B</option>
+                        <option value="Dr. Fanani">Dr. C</option>
                     @elseif ($poli == 'kandungan')
-                        <option value="Dr. X">Dr. X</option>
-                        <option value="Dr. Y">Dr. Y</option>
-                        <option value="Dr. Z">Dr. Z</option>
+                        <option value="Dr. Aurellia">Dr. X</option>
+                        <option value="Dr. Wiratna">Dr. Y</option>
+                        <option value="Dr. Alifia">Dr. Z</option>
                     @elseif ($poli == 'neonatologi')
-                        <option value="Dr. S">Dr. S</option>
-                        <option value="Dr. T">Dr. T</option>
-                        <option value="Dr. U">Dr. U</option>
+                        <option value="Dr. Sion">Dr. S</option>
+                        <option value="Dr. Rifdah">Dr. T</option>
+                        <option value="Dr. Samuel">Dr. U</option>
                     @endif
                   </select>
             </div>
