@@ -143,13 +143,13 @@
                                 <p class="text-center">09.00 - 12.00</p>
                               </div>
                               <div class="col-md-4">
-                                <a><img src="assets/img/dokter_Martha.jpg" class="img-fluid rounded" alt=""></a>
+                                <a><img src="assets/img/dokter_Lubis.jpg" class="img-fluid rounded" alt=""></a>
                                 <h3 class="mb-3 font-weight-bold text-center">Dr. Lubis</h3>
                                 <p class="text-center">Senin s/d Jumat</p>
                                 <p class="text-center">09.00 - 12.00</p>
                               </div>
                               <div class="col-md-4">
-                                <a><img src="assets/img/dokter_Martha.jpg" class="img-fluid rounded" alt=""></a>
+                                <a><img src="assets/img/dokter_Fanani.jpg" class="img-fluid rounded" alt=""></a>
                                 <h3 class="mb-3 font-weight-bold text-center">Dr. Fanani</h3>
                                 <p class="text-center">Senin s/d Jumat</p>
                                 <p class="text-center">09.00 - 12.00</p>
@@ -159,19 +159,19 @@
                         <div class="tab-pane fade" id="tab-pane-2">
                             <div class="row g-4">
                               <div class="col-md-4">
-                                <a><img src="assets/img/dokter_Martha.jpg" class="img-fluid rounded" alt=""></a>
+                                <a><img src="assets/img/dokter_Aurellia.jpg" class="img-fluid rounded" alt=""></a>
                                 <h3 class="mb-3 font-weight-bold text-center">Dr. Aurellia</h3>
                                 <p class="text-center">Senin s/d Jumat</p>
                                 <p class="text-center">09.00 - 12.00</p>
                               </div>
                               <div class="col-md-4">
-                                <a><img src="assets/img/dokter_Martha.jpg" class="img-fluid rounded" alt=""></a>
+                                <a><img src="assets/img/dokter_Wiratna.jpg" class="img-fluid rounded" alt=""></a>
                                 <h3 class="mb-3 font-weight-bold text-center">Dr. Wiratna</h3>
                                 <p class="text-center">Senin s/d Jumat</p>
                                 <p class="text-center">09.00 - 12.00</p>
                               </div>
                               <div class="col-md-4">
-                                <a><img src="assets/img/dokter_Martha.jpg" class="img-fluid rounded" alt=""></a>
+                                <a><img src="assets/img/dokter_Alifia.jpg" class="img-fluid rounded" alt=""></a>
                                 <h3 class="mb-3 font-weight-bold text-center">Dr. Alifia</h3>
                                 <p class="text-center">Senin s/d Jumat</p>
                                 <p class="text-center">09.00 - 12.00</p>
@@ -181,19 +181,19 @@
                         <div class="tab-pane fade" id="tab-pane-3">
                             <div class="row g-4">
                               <div class="col-md-4">
-                                <a><img src="assets/img/dokter_Martha.jpg" class="img-fluid rounded" alt=""></a>
+                                <a><img src="assets/img/dokter_Sion.jpg" class="img-fluid rounded" alt=""></a>
                                 <h3 class="mb-3 font-weight-bold text-center">Dr. Sion</h3>
                                 <p class="text-center">Senin s/d Jumat</p>
                                 <p class="text-center">09.00 - 12.00</p>
                               </div>
                               <div class="col-md-4">
-                                <a><img src="assets/img/dokter_Martha.jpg" class="img-fluid rounded" alt=""></a>
+                                <a><img src="assets/img/dokter_Rifdah.jpg" class="img-fluid rounded" alt=""></a>
                                 <h3 class="mb-3 font-weight-bold text-center">Dr. Rifdah</h3>
                                 <p class="text-center">Senin s/d Jumat</p>
                                 <p class="text-center">09.00 - 12.00</p>
                               </div>
                               <div class="col-md-4">
-                                <a><img src="assets/img/dokter_Martha.jpg" class="img-fluid rounded" alt=""></a>
+                                <a><img src="assets/img/dokter_Samuel.jpg" class="img-fluid rounded" alt=""></a>
                                 <h3 class="mb-3 font-weight-bold text-center">Dr. Samuel</h3>
                                 <p class="text-center">Senin s/d Jumat</p>
                                 <p class="text-center">09.00 - 12.00</p>
@@ -220,7 +220,7 @@
 
 
       <div class="container">
-        <div class="row mt-5">
+        <div class="row mt-2">
 
           <div class="col-lg-4">
             <div class="info">
