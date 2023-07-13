@@ -32,7 +32,7 @@
             <div class="mb-3">
                 <label>Jenis Kelamin</label>
                 <select class="form-select" wire:model="jenis_kelamin" aria-label="Default select example">
-                    <option selected>pilih Jenis Kelamin</option>
+                    <option selected>pilih jenis kelamin</option>
                     <option value="laki-laki">Laki-laki</option>
                     <option value="perempuan">Perempuan</option>
                   </select>
