@@ -214,6 +214,16 @@
     }
   });
 
+  // js jadwal dokter
+  document.addEventListener("DOMContentLoaded", function() {
+    var fadeUpContainers = document.querySelectorAll(".fade-up-container");
+    for (var i = 0; i < fadeUpContainers.length; i++) {
+      var container = fadeUpContainers[i];
+      container.classList.add("fade-up-animation");
+    }
+  });
+  
+
   /**
    * Initiate Pure Counter 
    */
