@@ -108,103 +108,103 @@
 
 <!-- Service Start -->
 <div class="container-xxl service py-5">
-        <div class="container">
-            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-           
-              <div class="section-title">
-                <h2>Jadwal Dokter</h2>
+  <div class="container">
+    <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+      <div class="section-title">
+        <h2>Jadwal Dokter</h2>
+      </div>
+    </div>
+    <div class="row g-4 wow fadeInUp" data-wow-delay="0.3s">
+      <div class="col-lg-4">
+        <div class="nav w-100 nav-pills me-4">
+          <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4 active" data-bs-toggle="pill" data-bs-target="#tab-pane-1" type="button">
+            <i class="bi bi-balloon fa-2x me-3"></i>
+            <h4 class="m-0">Poli Anak</h4>
+          </button>
+          <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4" data-bs-toggle="pill" data-bs-target="#tab-pane-2" type="button">
+            <i class="bi bi-heart-pulse fa-2x me-3"></i>
+            <h4 class="m-0">Poli Kandungan</h4>
+          </button>
+          <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4" data-bs-toggle="pill" data-bs-target="#tab-pane-3" type="button">
+            <i class="bi bi-balloon-heart fa-2x me-3"></i>
+            <h4 class="m-0">Poli Neonatologi</h4>
+          </button>
+        </div>
+      </div>
+      <div class="col-lg-8">
+        <div class="tab-content w-100">
+          <div class="tab-pane fade show active" id="tab-pane-1">
+            <div class="row g-4">
+              <div class="col-md-4 fade-up-container">
+                <a><img src="assets/img/dokter_Martha.jpg" class="fade-up-img img-fluid rounded" alt=""></a>
+                <h3 class="mb-3 font-weight-bold text-center">Dr. Martha</h3>
+                <p class="text-center">Senin s/d Jumat</p>
+                <p class="text-center">09.00 - 12.00</p>
+              </div>
+              <div class="col-md-4 fade-up-container">
+                <a><img src="assets/img/dokter_Lubis.jpg" class="fade-up-img img-fluid rounded" alt=""></a>
+                <h3 class="mb-3 font-weight-bold text-center">Dr. Lubis</h3>
+                <p class="text-center">Senin s/d Jumat</p>
+                <p class="text-center">09.00 - 12.00</p>
+              </div>
+              <div class="col-md-4 fade-up-container">
+                <a><img src="assets/img/dokter_Fanani.jpg" class="fade-up-img img-fluid rounded" alt=""></a>
+                <h3 class="mb-3 font-weight-bold text-center">Dr. Fanani</h3>
+                <p class="text-center">Senin s/d Jumat</p>
+                <p class="text-center">09.00 - 12.00</p>
               </div>
             </div>
-            <div class="row g-4 wow fadeInUp" data-wow-delay="0.3s">
-                <div class="col-lg-4">
-                    <div class="nav w-100 nav-pills me-4">
-                        <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4 active" data-bs-toggle="pill" data-bs-target="#tab-pane-1" type="button">
-                            <i class="bi bi-balloon fa-2x me-3"></i>
-                            <h4 class="m-0">Poli Anak</h4>
-                        </button>
-                        <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4" data-bs-toggle="pill" data-bs-target="#tab-pane-2" type="button">
-                            <i class="bi bi-heart-pulse fa-2x me-3"></i>
-                            <h4 class="m-0">Poli Kandungan</h4>
-                        </button>
-                        <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4" data-bs-toggle="pill" data-bs-target="#tab-pane-3" type="button">
-                            <i class="bi bi-balloon-heart fa-2x me-3"></i>
-                            <h4 class="m-0">Poli Neonatologi</h4>
-                        </button>
-                    </div>
-                </div>
-                <div class="col-lg-8">
-                    <div class="tab-content w-100">
-                        <div class="tab-pane fade show active" id="tab-pane-1">
-                            <div class="row g-4">
-                              <div class="col-md-4">
-                                <a><img src="assets/img/dokter_Martha.jpg" class="img-fluid rounded" alt=""></a>
-                                <h3 class="mb-3 font-weight-bold text-center">Dr. Martha</h3>
-                                <p class="text-center">Senin s/d Jumat</p>
-                                <p class="text-center">09.00 - 12.00</p>
-                              </div>
-                              <div class="col-md-4">
-                                <a><img src="assets/img/dokter_Lubis.jpg" class="img-fluid rounded" alt=""></a>
-                                <h3 class="mb-3 font-weight-bold text-center">Dr. Lubis</h3>
-                                <p class="text-center">Senin s/d Jumat</p>
-                                <p class="text-center">09.00 - 12.00</p>
-                              </div>
-                              <div class="col-md-4">
-                                <a><img src="assets/img/dokter_Fanani.jpg" class="img-fluid rounded" alt=""></a>
-                                <h3 class="mb-3 font-weight-bold text-center">Dr. Fanani</h3>
-                                <p class="text-center">Senin s/d Jumat</p>
-                                <p class="text-center">09.00 - 12.00</p>
-                              </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="tab-pane-2">
-                            <div class="row g-4">
-                              <div class="col-md-4">
-                                <a><img src="assets/img/dokter_Aurellia.jpg" class="img-fluid rounded" alt=""></a>
-                                <h3 class="mb-3 font-weight-bold text-center">Dr. Aurellia</h3>
-                                <p class="text-center">Senin s/d Jumat</p>
-                                <p class="text-center">09.00 - 12.00</p>
-                              </div>
-                              <div class="col-md-4">
-                                <a><img src="assets/img/dokter_Wiratna.jpg" class="img-fluid rounded" alt=""></a>
-                                <h3 class="mb-3 font-weight-bold text-center">Dr. Wiratna</h3>
-                                <p class="text-center">Senin s/d Jumat</p>
-                                <p class="text-center">09.00 - 12.00</p>
-                              </div>
-                              <div class="col-md-4">
-                                <a><img src="assets/img/dokter_Alifia.jpg" class="img-fluid rounded" alt=""></a>
-                                <h3 class="mb-3 font-weight-bold text-center">Dr. Alifia</h3>
-                                <p class="text-center">Senin s/d Jumat</p>
-                                <p class="text-center">09.00 - 12.00</p>
-                              </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="tab-pane-3">
-                            <div class="row g-4">
-                              <div class="col-md-4">
-                                <a><img src="assets/img/dokter_Sion.jpg" class="img-fluid rounded" alt=""></a>
-                                <h3 class="mb-3 font-weight-bold text-center">Dr. Sion</h3>
-                                <p class="text-center">Senin s/d Jumat</p>
-                                <p class="text-center">09.00 - 12.00</p>
-                              </div>
-                              <div class="col-md-4">
-                                <a><img src="assets/img/dokter_Rifdah.jpg" class="img-fluid rounded" alt=""></a>
-                                <h3 class="mb-3 font-weight-bold text-center">Dr. Rifdah</h3>
-                                <p class="text-center">Senin s/d Jumat</p>
-                                <p class="text-center">09.00 - 12.00</p>
-                              </div>
-                              <div class="col-md-4">
-                                <a><img src="assets/img/dokter_Samuel.jpg" class="img-fluid rounded" alt=""></a>
-                                <h3 class="mb-3 font-weight-bold text-center">Dr. Samuel</h3>
-                                <p class="text-center">Senin s/d Jumat</p>
-                                <p class="text-center">09.00 - 12.00</p>
-                              </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+          </div>
+          <div class="tab-pane fade" id="tab-pane-2">
+            <div class="row g-4">
+              <div class="col-md-4 fade-up-container">
+                <a><img src="assets/img/dokter_Aurellia.jpg" class="fade-up-img img-fluid rounded" alt=""></a>
+                <h3 class="mb-3 font-weight-bold text-center">Dr. Aurellia</h3>
+                <p class="text-center">Senin s/d Jumat</p>
+                <p class="text-center">09.00 - 12.00</p>
+              </div>
+              <div class="col-md-4 fade-up-container">
+                <a><img src="assets/img/dokter_Wiratna.jpg" class="fade-up-img img-fluid rounded" alt=""></a>
+                <h3 class="mb-3 font-weight-bold text-center">Dr. Wiratna</h3>
+                <p class="text-center">Senin s/d Jumat</p>
+                <p class="text-center">09.00 - 12.00</p>
+              </div>
+              <div class="col-md-4 fade-up-container">
+                <a><img src="assets/img/dokter_Alifia.jpg" class="fade-up-img img-fluid rounded" alt=""></a>
+                <h3 class="mb-3 font-weight-bold text-center">Dr. Alifia</h3>
+                <p class="text-center">Senin s/d Jumat</p>
+                <p class="text-center">09.00 - 12.00</p>
+              </div>
             </div>
+          </div>
+          <div class="tab-pane fade" id="tab-pane-3">
+            <div class="row g-4">
+              <div class="col-md-4 fade-up-container">
+                <a><img src="assets/img/dokter_Sion.jpg" class="fade-up-img img-fluid rounded" alt=""></a>
+                <h3 class="mb-3 font-weight-bold text-center">Dr. Sion</h3>
+                <p class="text-center">Senin s/d Jumat</p>
+                <p class="text-center">09.00 - 12.00</p>
+              </div>
+              <div class="col-md-4 fade-up-container">
+                <a><img src="assets/img/dokter_Rifdah.jpg" class="fade-up-img img-fluid rounded" alt=""></a>
+                <h3 class="mb-3 font-weight-bold text-center">Dr. Rifdah</h3>
+                <p class="text-center">Senin s/d Jumat</p>
+                <p class="text-center">09.00 - 12.00</p>
+              </div>
+              <div class="col-md-4 fade-up-container">
+                <a><img src="assets/img/dokter_Samuel.jpg" class="fade-up-img img-fluid rounded" alt=""></a>
+                <h3 class="mb-3 font-weight-bold text-center">Dr. Samuel</h3>
+                <p class="text-center">Senin s/d Jumat</p>
+                <p class="text-center">09.00 - 12.00</p>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
+  </div>
+</div>
+
     <!-- Service End -->
 
 
